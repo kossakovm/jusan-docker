@@ -1,0 +1,10 @@
+services:
+  api:
+    image:
+      jusan-fastapi-final:dockerize
+    ports:
+      - 8282:8080
+    container_name:
+      jusan-compose
+
+
